@@ -112,7 +112,7 @@ func main() {
 				}
 			case "fsload":
 				if len(r.Form["fssave"]) == 1 {
-					err = server.Save(r.Form["fssave"][0])
+					err = server.Load(r.Form["fssave"][0])
 				}
 			}
 			if err != nil {
