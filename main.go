@@ -16,7 +16,7 @@ import (
 )
 
 const AutosaveOffset = 7
-const AutosaveTime = 5 * time.Second
+const AutosaveTime = 5 * time.Minute
 
 const Website = `
 <!DOCTYPE html>
